@@ -64,7 +64,7 @@ int main(int argc, char **argv)
 {
 	uint32_t i;
 	uint8_t send_report[SEND_REPORT_SIZE + 1] = {0};
-	uint8_t recv_report[RECV_REPORT_SIZE] = {0};
+	uint8_t recv_report[RECV_REPORT_SIZE + 1] = {0};
 	enum {SET, GET, ALT};
 	char type;
 	int set_size = -1;
